@@ -14,6 +14,8 @@
 
 VENDOR_PATH := vendor/Gcam
 
+PRODUCT_SOONG_NAMESPACES += vendor/Gcam
+
 # Permissions
 PRODUCT_COPY_FILES += \
     vendor/Gcam/system/etc/permissions/privapp-permissions-gcam.xml:system/etc/permissions/privapp-permissions-gcam.xml

@@ -1,0 +1,12 @@
+soong_namespace {
+}
+
+android_app_import {
+    name: "Gcam",
+    apk: "prebuilt/Gcam.apk",
+    privileged: true,
+    certificate: "PRESIGNED",
+    dex_preopt: {
+        enabled: false,
+    },
+}
