@@ -6,6 +6,7 @@ android_app_import {
     apk: "prebuilt/Gcam.apk",
     privileged: true,
     presigned: true,
+    preprocessed: true,
     dex_preopt: {
         enabled: false,
     },
