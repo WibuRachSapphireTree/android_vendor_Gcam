@@ -1,5 +1,5 @@
 PRODUCT_SOONG_NAMESPACES += \
-    vendor/gcam
+    vendor/Gcam
 
 PRODUCT_PACKAGES += \
     gcam \
