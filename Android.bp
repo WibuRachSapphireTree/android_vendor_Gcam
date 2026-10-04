@@ -5,8 +5,16 @@ android_app_import {
     name: "gcam",
     apk: "prebuilt/Gcam.apk",
     presigned: true,
+    privileged: true,
     dex_preopt: {
         enabled: false,
     },
+    product_specific: true,
+}
+
+prebuilt_etc {
+    name: "privapp-permissions-gcam",
+    src: "system/etc/permissions/privapp-permissions-gcam.xml",
+    sub_dir: "permissions",
     product_specific: true,
 }
